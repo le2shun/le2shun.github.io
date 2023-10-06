@@ -23,8 +23,25 @@
         <h1>
             디플러스 기아 선수단
         </h1>
+        <form>
+            <label for name="ID">ID &nbsp; </label>
+            <input name="ID" type="text" placeholder="ID (아이디 또는 이메일)" />
+            <select>
+                <option>KOR</option>
+                <option>USA</option>
+                <option>JPN</option>
+                <option>EUR</option>
+            </select>
+
+            <br />
+            <label for name="PW">PW</label>
+            <input name="PW" type="password" placeholder="PASSWORD" />
+            <input onclick="alert('로그인 완료');" type="button" value="ROG-IN" />
+        </form>
+        <br />
         <hr />  
-        <table>
+        <table summary="2023 Dplus KIA Roster">
+            <caption><span style="font-size:1.7em; color:black;"><strong>2023 Dplus KIA ROSTER</strong></span></caption>
             <tr>
                 <th><h2><em>TOP</em></h2></th>
                 <th><h2><em>JUG</em></h2></th>
@@ -85,8 +102,40 @@
     
                  Dplus KIA<sup>리그오브레전드 게임의 프로 구단</sup>
                 <br /><del>2022년 이후로 우승 준우승 기록이 없음</del>
-
-            <br  /><br /><br /> <a href="index.html">돌아가기</a> 
+ 
+        <br /><br /><br />        
+        <form>
+            <h2><span style = " font-size:1.1em;  color:black; ">2023 DK AWARDS</span></h2>
+            <span style="font-size:1.1em; color:red;">SPRING-SEASON MVP</span><br />
+                <input type="radio" name="p1" />Canna
+                <input type="radio" name="p1" />Canyon
+                <input type="radio" name="p1" />Showmaker
+                <input type="radio" name="p1" checked/>Deft
+                <input type="radio" name="p1" />Kellin
+            <br /><br /><span style="font-size:1.1em; color:red;">SUMMER-SEASON MVP</span><br />
+                <input type="radio" name="p2" />Canna
+                <input type="radio" name="p2" checked/>Canyon
+                <input type="radio" name="p2" />Showmaker
+                <input type="radio" name="p2" />Deft
+                <input type="radio" name="p2" />Kellin
+            <br /><br /><span style="font-size:1.1em; color:red;">PLAY-OFF MVP</span><br />
+                <input type="radio" name="p3" />Canna
+                <input type="radio" name="p3" />Canyon
+                <input type="radio" name="p3" checked/>Showmaker
+                <input type="radio" name="p3" />Deft
+                <input type="radio" name="p3" />Kellin
+            <br /><br /><span style="font-size:1.1em; color:red;">HIGHLIGHT</span><br /> 
+                <input type="checkbox" />SPRING nR vs OOO
+                <input type="checkbox" />SPRING nR vs OOO
+                <input type="checkbox" />SPRING nR vs OOO
+                <input type="checkbox" />SUMMER nR vs OOO
+                <input type="checkbox" />SUMMER nR vs OOO
+                <input type="checkbox" />SUMMER nR vs OOO
+            <br /><br /><span style="font-size:1.1em; color:red;">COMENTS</span><br />
+                <textarea rows="5" cols="50" placeholder="다음시즌 응원의 한마디"></textarea>
+                <br /><input onclick="alert('제출 완료');" type="submit" value="제출하기" />
+        </form>
         
+         <br /><br /><br /> <a href="index.html">돌아가기</a> 
     </body>
 </html>
